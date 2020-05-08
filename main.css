@@ -13,6 +13,7 @@ body {
 
 .wrapper {
     padding-top: 6rem;
+    height: 90%;
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -22,6 +23,7 @@ body {
 .quote {
   font-family: 'Julius Sans One', sans-serif;
   text-transform: uppercase;
+  padding-top: 3.3rem;
   text-align: center;
   font-size: 2.4rem;
 }
@@ -30,5 +32,39 @@ body {
     font-family: 'Crimson Text', serif;
     font-size: 1.5rem;
     font-style: italic;
-    padding-top: 3rem;
+    padding-top: 7rem;
+}
+
+
+footer {
+  height: 10%;
+  width: auto;
+  text-align: right;
+  background: hsl(63, 62%, 60%, .5);
+}
+
+footer a {
+  margin-right: 1rem;
+  color: black;
+  font-size: 1rem;
+}
+
+img {
+  padding-top: 5px;
+}
+
+@media (max-width: 640px) {
+  .quote {
+    height: 100%:
+    width: auto;
+    font-size: 1rem;
+    text-align: center;
+
+  }
+
+  .author {
+    padding-top: 6rem;
+    color: white;
+    font-weight: 300;
+  }
 }
